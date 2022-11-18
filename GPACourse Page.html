@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name= "viewport" content="width=device-width",initial-scle=1.0">
+<title>Evaluation-Form</title>
+<style>
+    .container {
+        max-width:800px;
+        margin:20px auto;
+        display:flex;
+        justify-content:center;
+        text-align:center;
+    }
+    .hidediv{
+        display:none;
+    }
+    </style>
+    </head>
+    <header>
+
+        <a href="http://ccse.kennesaw.edu/it"><img src="kenn state.png" alt="kenn state">
+            <br>
+            <style="width:500px;height:100px:">Link to KSU
+            </style = "width:500px; height: 100px:">
+            </a>
+        <h1>Center for Reseach In Information Technology</h1>
+        
+        </header>
+        
+        <div id="header">
+        <b><font face="verdana">Menu: </b><a class="menu" href="index.html"><b>Home</b></a> | <a href="Falculty Page.html"><b>Faculty Page</b></a> | 
+        <a href="Summary Page.html"><b>Summary</b></a> | <a href="GPACourse Page.html"><b>GPACourse Page</b></a> 
+        
+        </div>
+        
+    <body>
+        <h1>Summer Assistants Application</h1>
+       <p>The summer is coming and CARIT has four student assistant positions open. In order to be
+        considered for such a position, a student has to complete some required courses and meet the minimum required GPA.Applications end soon, so don't wait to long.</p>
+    <div class="container">
+    <form id="studentform">
+    <label for= "student-status">Student Status</label>
+    <select id="student-status">
+    <option value="select">Select</option>
+    <option value="ug">Under Graduate</option>
+    <option value="pg">Post Graduate</option>
+    </select>
+    <div id="courses"class="hidediv">
+    <h2>Courses</h2>
+    <p>CSE 1321 Application and Development</p>
+    <label>Grade Obtained
+    <select id="sub1">
+    <option value="4.0">A</option>
+    <option value="3.5">B</option>
+    <option value="3.0">C</option>
+    <option value="2.5">D</option>
+    <option value="2.0">F</option>
+    </select>
+    </label>
+    <p>IT 1113 Softare and Security Policies</p>
+    <label>Grade Obtained
+    <select id="sub3">
+    <option value="4.0">A</option>
+    <option value="3.5">B</option>
+    <option value="3.0">C</option>
+    <option value="2.5">D</option>
+    <option value="2.0">F</option>
+    </select>
+    </label>
+    <p>IT 4000 Information Systems</p>
+    <label>Grade Obtained
+    <select id="sub4">
+    <option value="4.0">A</option>
+    <option value="3.5">B</option>
+    <option value="3.0">C</option>
+    <option value="2.5">D</option>
+    <option value="2.0">F</option>
+    </select>
+    </label>
+    <p>IT 1213 Software & Database </p>
+    <label>Grade Obtained
+    <select id="sub5">
+    <option value="4.0">A</option>
+    <option value="3.5">B</option>
+    <option value="3.0">C</option>
+    <option value="2.5">D</option>
+    <option value="2.0">F</option>
+    </select>
+    </label>
+    <div>
+        <button>Evaluate</button>
+    </div>
+    <div id="messages">
+    </div>
+    </div>
+    </form>
+    </div>
+    <script src="app.js"></script>
+    
+    
+</body>
+</html>
+    
